@@ -16,7 +16,7 @@ def preprocess_csv(file_name):
             if row['Name'] == '' or row['Grade'] == '' or row['Marks'] == '':
                 continue
 
-            row['Grade'] = int(row['Grade'])
+           
             row['Marks'] = int(row['Marks'])
 
             cleaned_data.append(row)
